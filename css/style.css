@@ -4,13 +4,52 @@
     box-sizing: border-box;
 }
 
+/* imágen de fondo */
 body {
     background-image: url(../img/header.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Josefin Sans', sans-serif; */
 }    
 
+/* menú de navegación */
 .header {
     display: flex;
+    justify-content: space-between;
+    font-size: 200%;
+}
+
+.header ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline;
+    position: relative;
+}
+
+.header ul li a:hover {
+    color: grey;
+}
+
+/* submenu desplegable */
+
+.header ul li ul {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.header ul li:hover ul {
+    display: block;
+    text-align: center;
+}
+
+.header ul li ul li a {
+    font-size: 70%;
 }
