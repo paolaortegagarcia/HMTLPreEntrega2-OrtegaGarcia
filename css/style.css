@@ -5,8 +5,8 @@
 }
 
 /* imágen de fondo */
-body {
-    background-image: url(../img/header.png);
+.bodypao {
+    background-image: url(../img/imageedit_7_3251181590.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,41 +15,117 @@ body {
 }    
 
 /* menú de navegación */
-.header {
+/* .headerpao */.navbar {
+    position: -webkit-sticky;
+    position: sticky;
     display: flex;
+    top: 0;
     justify-content: space-between;
     font-size: 200%;
+    margin-bottom: 2%;
+    padding: 2%;
 }
 
-.header ul li a {
+/* .headerpao */.navbar ul li a {
     color: black;
     text-decoration: none;
 }
 
-.header ul li {
+/* .headerpao */.navbar ul li {
     list-style: none;
     display: inline;
     position: relative;
 }
 
-.header ul li a:hover {
-    color: grey;
+/* .headerpao */.navbar ul li a:hover {
+    color: grey !important;
 }
 
+.borderpao {
+    border-right: solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.borderfinalpao {
+    padding-right: 20px;
+    padding-left: 20px;
+}
 /* submenu desplegable */
 
-.header ul li ul {
+/* .headerpao */.navbar ul li ul {
     display: none;
     position: absolute;
-    top: 30px;
+    /* top: 30px; */
     left: 0;
 }
 
-.header ul li:hover ul {
+/* .headerpao */.navbar ul li:hover ul {
     display: block;
     text-align: center;
 }
 
-.header ul li ul li a {
+/* .headerpao */.navbar ul li ul li a {
     font-size: 70%;
+}
+
+/* bootstrap */
+
+/* fondo */
+
+.navbar {
+    background-color: transparent !important;
+}
+
+
+/* menú de navegación */
+
+.navbar-nav {
+    --bs-nav-link-padding-y: 0 !important;
+}
+
+
+/* section */
+
+ul {
+    padding-left: 2px !important;
+}
+
+.container {
+    font-size: 600%;
+    margin-top: 17%;
+}
+
+.sectionmenu1 {
+    border: solid black;
+    margin-right: 2%;
+    margin-bottom: 15%;
+    transform: rotate(-5deg);
+}
+
+.sectionmenu2 {
+    border: solid black;
+    margin-left: 2%;
+    margin-bottom: 15%;
+    transform: rotate(10deg);
+}
+
+.sectionmenu1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.sectionmenu2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.sectionmenu1:hover {
+    background-color: #B1E5F2;
+    transform: scale(1);
+}
+
+.sectionmenu2:hover {
+    background-color: #B1E5F2;
+    transform: scale(1);
 }
