@@ -15,7 +15,7 @@
 }    
 
 /* menú de navegación */
-/* .headerpao */.navbar {
+.navbar {
     position: -webkit-sticky;
     position: sticky;
     display: flex;
@@ -26,18 +26,18 @@
     padding: 2%;
 }
 
-/* .headerpao */.navbar ul li a {
+.navbar ul li a {
     color: black;
     text-decoration: none;
 }
 
-/* .headerpao */.navbar ul li {
+.navbar ul li {
     list-style: none;
     display: inline;
     position: relative;
 }
 
-/* .headerpao */.navbar ul li a:hover {
+.navbar ul li a:hover {
     color: grey !important;
 }
 
@@ -53,19 +53,19 @@
 }
 /* submenu desplegable */
 
-/* .headerpao */.navbar ul li ul {
+.navbar ul li ul {
     display: none;
     position: absolute;
     /* top: 30px; */
     left: 0;
 }
 
-/* .headerpao */.navbar ul li:hover ul {
+.navbar ul li:hover ul {
     display: block;
     text-align: center;
 }
 
-/* .headerpao */.navbar ul li ul li a {
+.navbar ul li ul li a {
     font-size: 70%;
 }
 
@@ -84,15 +84,7 @@
     --bs-nav-link-padding-y: 0 !important;
 }
 
-/* .dropdown-menu {
-    --bs-dropdown-bg: 0 !important;
-    --bs-dropdown-border-color: 0 !important;
-    --bs-dropdown-link-hover-bg: 0 !important;
-    --bs-dropdown-font-size: 2rem;
-} */
-
-
-/* section */
+/* sections - containers */
 
 ul {
     padding-left: 2px !important;
@@ -101,6 +93,25 @@ ul {
 .container {
     font-size: 600%;
     margin-top: 17%;
+}
+
+.main__hola {
+    margin-top: -15%;
+    font-size: 350%;
+} 
+
+.main__paola {
+    margin-top: 2%;
+    font-size: 50%;
+}
+
+@media (min-width:300px) and (max-width:1000px) {
+    .main__hola {
+        font-size: 100%;
+    }
+    .main__paola {
+        font-size: 30%;
+    }
 }
 
 .sectionmenu1 {
@@ -136,3 +147,102 @@ ul {
     background-color: #B1E5F2;
     transform: scale(1);
 }
+
+@media (max-width:768px){
+    .sectionmenuprof {
+        flex-wrap: wrap-reverse !important;
+    }
+}
+
+
+/* links */
+
+.linksinternos ul li a {
+    color: #B1E5F2 ;
+}
+
+.linksinternos ul li {
+    list-style: none;
+}
+
+.linkspao {
+    font-size: 30%;
+}
+
+/* ids */
+
+#quiensoy img {
+    width: 100%;
+}
+
+#desarrolloweb img {
+    width: 100%;
+}
+
+#javascript img {
+    width: 100%;
+}
+
+#reactjs img {
+    width: 100%;
+}
+
+#backend img {
+    width: 100%;
+}
+
+#excel img {
+    width: 100%;
+}
+
+#sql img {
+    width: 100%;
+}
+
+#powerbi img {
+    width: 100%;
+}
+
+#python img {
+    width: 100%;
+}
+
+#quiensoypao {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20%;
+    text-align: left;
+}
+
+#educacion img {
+    margin-top: 10%;
+    width: 100%;
+}
+
+#educacionpao {
+    margin-top: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20%;
+    text-align: left;
+}
+
+#quiensoypao h2 {
+    font-family: 'Amatic SC';
+    font-size: 200%;
+    margin-bottom: 5%;
+    margin-top: -20%;
+}
+
+.formularionombre {
+    margin-bottom: 2%;
+}
+
+.formularioemail {
+    margin-bottom: 2%;
+}
+
+.formulariomensaje {
+    margin-bottom: 2%;
+}
+
+
+
