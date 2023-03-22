@@ -84,6 +84,13 @@
     --bs-nav-link-padding-y: 0 !important;
 }
 
+/* .dropdown-menu {
+    --bs-dropdown-bg: 0 !important;
+    --bs-dropdown-border-color: 0 !important;
+    --bs-dropdown-link-hover-bg: 0 !important;
+    --bs-dropdown-font-size: 2rem;
+} */
+
 
 /* section */
 
