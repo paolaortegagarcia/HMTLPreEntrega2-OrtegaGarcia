@@ -15,6 +15,7 @@
 }    
 
 /* menú de navegación */
+
 .navbar {
     position: -webkit-sticky;
     position: sticky;
@@ -51,6 +52,7 @@
     padding-right: 20px;
     padding-left: 20px;
 }
+
 /* submenu desplegable */
 
 .navbar ul li ul {
@@ -69,26 +71,23 @@
     font-size: 70%;
 }
 
-/* bootstrap */
 
-/* fondo */
+/* arreglando bootstrap */
 
 .navbar {
     background-color: transparent !important;
 }
 
 
-/* menú de navegación */
-
 .navbar-nav {
     --bs-nav-link-padding-y: 0 !important;
 }
 
-/* sections - containers */
-
 ul {
     padding-left: 2px !important;
 }
+
+/* contenedores */
 
 .container {
     font-size: 600%;
@@ -169,63 +168,21 @@ ul {
     font-size: 30%;
 }
 
+
 /* ids */
 
-#quiensoy img {
-    width: 100%;
+.row div img {
+    width: 100%
 }
 
-#desarrolloweb img {
-    width: 100%;
-}
-
-#javascript img {
-    width: 100%;
-}
-
-#reactjs img {
-    width: 100%;
-}
-
-#backend img {
-    width: 100%;
-}
-
-#excel img {
-    width: 100%;
-}
-
-#sql img {
-    width: 100%;
-}
-
-#powerbi img {
-    width: 100%;
-}
-
-#python img {
-    width: 100%;
-}
-
-#quiensoypao {
+#quiensoy, #quiensoypao, #educacion, #datoscontacto, #educacionpao, #desarrolloweb, #javascript, #reactjs, #backend, #experiencialaboral, #habilidades, #excel, #sql, #powerbi, #python  {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20%;
     text-align: left;
+    margin-bottom: 5%;
 }
 
-#educacion img {
-    margin-top: 10%;
-    width: 100%;
-}
-
-#educacionpao {
-    margin-top: 10%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20%;
-    text-align: left;
-}
-
-#quiensoypao h2 {
+#datoscontacto h2 {
     font-family: 'Amatic SC';
     font-size: 200%;
     margin-bottom: 5%;
